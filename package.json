@@ -1,0 +1,26 @@
+{
+  "name": "discordlogin",
+  "version": "1.0.0",
+  "description": "Login usando a api de bots do discord.",
+  "main": "index.js",
+  "author": "Daniel danielfernandes.code@gmail.com",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord.js": "^12.3.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "passport": "^0.4.1",
+    "passport-oauth2": "^1.5.0",
+    "path": "^0.12.7",
+    "pixapi": "0.0.2",
+    "socket.io": "^2.3.0",
+    "util": "^0.12.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

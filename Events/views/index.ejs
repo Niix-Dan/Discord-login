@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Discord Login</title>
+  </head>
+  <body>
+    <% if (logged) { %>
+    <p>Hello <%= username %></p>
+   
+    <% } else { %>
+    <a href="/login">Click here to login</a>
+    <% } %>
+  </body>
+</html>
